@@ -27,7 +27,7 @@ class VideoDownloader:
                 f.stat().st_size for f in Path(self.download_dir).rglob('*')
                 if f.is_file()
             )
-            available_space = psutil.disk_usage(self.download_dir).free
+            
             
             return {
                 'used': total_size,

@@ -3,7 +3,6 @@ import os
 import yt_dlp
 import asyncio
 from pathlib import Path
-import psutil
 from datetime import datetime
 from config import (
     DOWNLOAD_DIR, MAX_FILE_SIZE, QUALITY_OPTIONS, STORAGE_LIMIT
